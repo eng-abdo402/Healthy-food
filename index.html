@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>- نظره عامه 🏠</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+      <h2> هيلثي فودد</h2>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link" data-page="overview">🏠 نظرة عامة</a>
+        <a href="subscriptions.html" class="nav-link" data-page="subscriptions">📦 اشتراكاتي</a>
+        <a href="meals.html" class="nav-link" data-page="meals">🍽️ وجباتي اليومية</a>
+        <a href="tracking.html" class="nav-link" data-page="measurements">🚚 تتبع الطلبات </a>
+        <a href="rewards.html" class="nav-link" data-page="accounts">🎁 المكافآت</a>
+        <a href="orders.html" class="nav-link" data-page="orders">🧾 سجل الطلبات</a>
+        <a href="payment.html" class="nav-link" data-page="groups">💳 المدفوعات</a>
+        <a href="settings.html" class="nav-link" data-page="settings">⚙️ الإعدادات</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <h1>مرحباً بك، عبدالرحمن!</h1>
+                <button class="icon-btn">🔔</button>
+
+    </header>
+
+    <section class="card-container">
+      <div class="card">
+        <span>نسبة التزام</span>
+        <h3>25/12 أيام</h3>
+      </div>
+      <div class="card">
+        <span>نقاط الولاء</span>
+        <h3>850</h3>
+      </div>
+      <div class="card">
+        <span>أيام صحية</span>
+        <h3>150</h3>
+      </div>
+      <div class="card">
+        <span>إجمالي الطلبات</span>
+        <h3>55</h3>
+      </div>
+    </section>
+
+    <section class="flex-row">
+      <div class="flex-col gradient-purple">
+        <h2>نقاط الولاء</h2>
+        <h3>850</h3>
+        <p>سجل 1000 نقطة للحصول على 15 خصم</p>
+<a href="rewards.html">
+  <button class="btn-secondary">استبدال النقاط</button>
+</a>
+      </div>
+
+      <div class="flex-col gradient-green">
+        <h2>اشتراكك الحالي</h2>
+        <p>فعال</p>
+        <p>التوصيل القادم: الأحد، 4 أكتوبر</p>
+        <p>تبقى: 12 يوم متبقٍ</p>
+
+        <div class="subscription-buttons">
+          <button class="btn-light">إيقاف مؤقت</button>
+<a href="subscriptions.html">
+  <button class="btn-secondary">تجديد الاشتراك </button>
+</a>
+        </div>
+
+        <p class="warning-text">ملاحظة: سيتم إيقاف خدمة التوصيل إذا لم يتم الدفع قبل 3 أيام من موعد التوصيل.</p>
+      </div>
+    </section>
+
+    <section class="flex-col gradient-yellow achievements">
+      <h2>الإنجازات</h2>
+      <div class="achievements-list">
+        <div class="achievement">
+          <span>اسبوع صحي🏆 </span>
+          <small>7 أيام متواصلة</small>
+        </div>
+        <div class="achievement">
+          <span>شهر كامل⭐</span>
+          <small>30 يوم صحي</small>
+        </div>
+        <div class="achievement">
+          <span>نجم المده🌟  </span>
+          <small>100 يوم صحي</small>
+        </div>
+        <div class="achievement">
+          <span>الملتزم💪</span>
+          <small>كل يوم متواصل</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-orders">
+      <h2>آخر الطلبيات</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>الحالة</th>
+            <th>التاريخ</th>
+            <th>اسم العميل</th>
+            <th>رقم الطلب</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="status-delivered">تم التوصيل</td>
+            <td>05/08/2025</td>
+            <td>دحاح مشوي</td>
+            <td>#01254</td>
+          </tr>
+          <tr>
+            <td class="status-delivered">تم التوصيل</td>
+            <td>05/08/2025</td>
+            <td>دحاح مشوي</td>
+            <td>#01254</td>
+          </tr>
+          <tr>
+            <td class="status-delivered">تم التوصيل</td>
+            <td>05/08/2025</td>
+            <td>دحاح مشوي</td>
+            <td>#01254</td>
+          </tr>
+        </tbody>
+      </table>
+ 
+
+  <section class="saved-titles">
+  <div class="section-header">
+    <h2>العناوين المحفوظة</h2>
+    <button id="add-location-btn" class="btn-add">إضافة موقع 📍</button>
+  </div>
+
+  <div id="location-status" style="margin-bottom:15px;color:#666;"></div>
+
+  <div id="titles-list">
+    <!-- العناوين المحفوظة ستظهر هنا -->
+  </div>
+</section>
+
+  <div id="titles-list">
+    <!-- قائمة العناوين المحفوظة ستظهر هنا -->
+  </div>
+</section>
+
+    <footer>
+      &copy; 2025 حقوق النشر محفوظة
+    </footer>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

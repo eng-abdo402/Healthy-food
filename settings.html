@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الإعدادات⚙️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="logo">
+      <h2>نظرة عامة</h2>
+    </div>
+    <nav class="nav-links">
+        <a href="index.html" class="nav-link" data-page="overview">🏠 نظرة عامة</a>
+        <a href="subscriptions.html" class="nav-link" data-page="subscriptions">📦 اشتراكاتي</a>
+        <a href="meals.html" class="nav-link" data-page="meals">🍽️ وجباتي اليومية</a>
+        <a href="tracking.html" class="nav-link" data-page="measurements">🚚 تتبع الطلبات </a>
+        <a href="rewards.html" class="nav-link" data-page="accounts">🎁 المكافآت</a>
+        <a href="orders.html" class="nav-link" data-page="orders">🧾 سجل الطلبات</a>
+        <a href="payment.html" class="nav-link" data-page="groups">💳 المدفوعات</a>
+        <a href="settings.html" class="nav-link" data-page="settings">⚙️ الإعدادات</a>
+    </nav>
+  </aside>
+
+  <main class="main-content">
+    <header>
+      <h1>الإعدادات الشخصية</h1>
+    </header>
+
+    <section>
+      <form>
+        <label for="name">الاسم الكامل</label>
+        <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required />
+
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" name="email" placeholder="مثال: user@example.com" required />
+
+        <label for="password">كلمة المرور</label>
+        <input type="password" id="password" name="password" placeholder="********" required />
+
+        <label for="phone">رقم الهاتف</label>
+        <input type="tel" id="phone" name="phone" placeholder="أدخل رقم الهاتف" />
+
+        <button type="submit" class="btn-primary">حفظ التغييرات</button>
+      </form>
+    </section>
+
+    <footer>
+      &copy; 2025 حقوق النشر محفوظة
+    </footer>
+  </main>
+</body>
+</html>
